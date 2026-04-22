@@ -26,7 +26,7 @@ export const loadBranch = async () => {
     } else {
       console.log('Branch initialized successfully');
     }
-    branch.track('pageview');
+    branch.track('pageview'); //manually show Journey
   });
 };
 
