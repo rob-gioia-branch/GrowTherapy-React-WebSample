@@ -26,6 +26,7 @@ export const loadBranch = async () => {
     } else {
       console.log('Branch initialized successfully');
     }
+    branch.track('pageview');
   });
 };
 
